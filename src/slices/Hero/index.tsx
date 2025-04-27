@@ -143,6 +143,7 @@ const Hero: FC<HeroProps> = ({ slice }) => {
         <div className="text-side relative z-[80] grid h-screen items-center gap-4 md:grid-cols-2">
           <PrismicNextImage
             className="mx-auto w-[60%] md:hidden"
+            alt=""
             field={slice.primary.cans_image}
           />
           <div>
